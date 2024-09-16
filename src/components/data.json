@@ -1,0 +1,117 @@
+[
+    {
+      "name": "Kalasurya",
+      "role": "Software Engineer",
+      "joiningDate": "July 16, 2024",
+      "picture": "https://media.istockphoto.com/id/1350585599/photo/indian-girl-studying-with-laptop.jpg?s=612x612&w=0&k=20&c=LvDWbZOd06QipG9tIVvcP5JBqaMoYust0fJufOU72Bk="
+    },
+    {
+      "name": "John Doe",
+      "role": "Project Manager",
+      "joiningDate": "June 25, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Jane Smith",
+      "role": "UX Designer",
+      "joiningDate": "May 10, 2022",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Robert Brown",
+      "role": "Data Scientist",
+      "joiningDate": "April 12, 2021",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Emily Davis",
+      "role": "Marketing Specialist",
+      "joiningDate": "March 22, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Michael Johnson",
+      "role": "Backend Developer",
+      "joiningDate": "February 15, 2024",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Olivia Wilson",
+      "role": "Frontend Developer",
+      "joiningDate": "January 5, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Sophia Martinez",
+      "role": "Content Writer",
+      "joiningDate": "December 1, 2022",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Liam Taylor",
+      "role": "Product Owner",
+      "joiningDate": "November 18, 2021",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Isabella Anderson",
+      "role": "Business Analyst",
+      "joiningDate": "October 30, 2022",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Ethan Thomas",
+      "role": "DevOps Engineer",
+      "joiningDate": "September 20, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Mia White",
+      "role": "System Administrator",
+      "joiningDate": "August 15, 2021",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Jacob Harris",
+      "role": "Network Engineer",
+      "joiningDate": "July 10, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Ava Clark",
+      "role": "Graphic Designer",
+      "joiningDate": "June 1, 2024",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "William Lewis",
+      "role": "Sales Manager",
+      "joiningDate": "May 25, 2022",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Charlotte Walker",
+      "role": "HR Specialist",
+      "joiningDate": "April 5, 2023",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "James Hall",
+      "role": "SEO Specialist",
+      "joiningDate": "March 15, 2024",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Amelia Allen",
+      "role": "Customer Support",
+      "joiningDate": "February 20, 2022",
+      "picture": "https://via.placeholder.com/150"
+    },
+    {
+      "name": "Benjamin Young",
+      "role": "Cloud Architect",
+      "joiningDate": "January 10, 2023",
+      "picture": "https://via.placeholder.com/150"
+    }
+  ]
+  
