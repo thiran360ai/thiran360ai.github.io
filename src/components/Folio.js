@@ -68,29 +68,24 @@ const Folio = () => {
             <div className="card__content">
               <h2>Who is Thiran</h2>
               <div className="card-body">
-              <div className="row">
-  <div className="col-md-4 d-flex justify-content-center align-items-center">
-    <figure>
-      <img
-        src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg"
-        alt="Thiran Solution"
-        className="img-fluid"
-      />
-    </figure>
-  </div>
-
-  <div className="col-md-8 d-flex align-items-start">
-    <div className="text-justify">
-      <p>
-        Thiran360AI's solutions are designed to address the most complex
-        problems with precision and efficiency. By combining advanced AI
-        technology with deep industry expertise, Thiran360AI delivers
-        solutions that drive success.
-      </p>
-    </div>
-  </div>
-</div>
-
+                <div className="row">
+                  <div className="col-md-4 d-flex justify-content-center align-items-center">
+                    <figure>
+                      <img
+                        src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg"
+                        alt="Thiran Solution"
+                        className="img-fluid"
+                      />
+                    </figure>
+                  </div>
+                  <div className="col-md-8 d-flex align-items-start">
+                    <div className="text-justify">
+                      <p>
+                        Thiran360AI's solutions are designed to address the most complex problems with precision and efficiency. By combining advanced AI technology with deep industry expertise, Thiran360AI delivers solutions that drive success.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </li>
@@ -100,16 +95,23 @@ const Folio = () => {
             <div className="card__content">
               <h2>Why Thiran</h2>
               <div className="card-body">
-                <figure>
-                  <img
-                    src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-2.jpg"
-                    alt="Why Thiran"
-                  />
-                </figure>
-                <div className="text-content">
-                  <p>
-                    Thiran360AI stands out for its commitment to ethical AI, delivering solutions that are not only innovative but also responsible. With a strong focus on customer satisfaction, Thiran360AI ensures every project is tailored to meet specific needs.
-                  </p>
+                <div className="row">
+                  <div className="col-md-4 d-flex justify-content-center align-items-center">
+                    <figure>
+                      <img
+                        src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-2.jpg"
+                        alt="Why Thiran"
+                        className="img-fluid"
+                      />
+                    </figure>
+                  </div>
+                  <div className="col-md-8 d-flex align-items-start">
+                    <div className="text-justify">
+                      <p>
+                        Thiran360AI stands out for its commitment to ethical AI, delivering solutions that are not only innovative but also responsible. With a strong focus on customer satisfaction, Thiran360AI ensures every project is tailored to meet specific needs.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -120,27 +122,30 @@ const Folio = () => {
             <div className="card__content">
               <h2>Thiran Solution</h2>
               <div className="card-body">
-                <figure>
-                  <img
-                    src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg"
-                    alt="Thiran Solution"
-                  />
-                </figure>
-                <div className="text-content">
-                  <p>
-                    Thiran360AI's solutions are designed to address the most complex problems with precision and efficiency. By combining advanced AI technology with deep industry expertise, Thiran360AI delivers solutions that drive success.
-                  </p>
+                <div className="row">
+                  <div className="col-md-4 d-flex justify-content-center align-items-center">
+                    <figure>
+                      <img
+                        src="https://codyhouse.co/demo-tutorials/stacking-cards/assets/img/img-1.jpg"
+                        alt="Thiran Solution"
+                        className="img-fluid"
+                      />
+                    </figure>
+                  </div>
+                  <div className="col-md-8 d-flex align-items-start">
+                    <div className="text-justify">
+                      <p>
+                        Thiran360AI's solutions are designed to address the most complex problems with precision and efficiency. By combining advanced AI technology with deep industry expertise, Thiran360AI delivers solutions that drive success.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </li>
 
           {/* Card 4 */}
-          <li
-            className="card"
-            id="card_4"
-            style={{ marginTop: '70px', backgroundColor: 'whitesmoke' }}
-          >
+          <li className="card" id="card_4" style={{ marginTop: '70px' }}>
             <div className="card__content">
               <h2>What Thiran can do</h2>
               <div className="card-body">
