@@ -1,3 +1,4 @@
+import { text } from "@fortawesome/fontawesome-svg-core";
 import React, { useRef, useState } from "react";
 
 const cardData = [
@@ -17,12 +18,14 @@ const cardData = [
   {
     title: "Android Application",
     image: "https://www.inforises.com/assets/app-development/android-app.png",
+    description:"An Android application is software created for devices using the Android OS. It offers various functions, from entertainment to productivity, and is available on platforms like Google Play.",
     backContent: ["User-Centered Design", "Iconography", "Responsive Design"],
   },
   {
     title: "IOS Application",
     image:
       "https://i0.wp.com/ahex.co/wp-content/uploads/2022/06/iphone-application-development.webp?fit=409%2C400&ssl=1",
+      description:"An iOS application is a mobile software program developed specifically for Apple's iOS operating system, which powers iPhones, iPads, and iPod Touch devices. These apps are distributed through the Apple App Store and are built using languages like Swift or Objective-C.",
     backContent: [
       "Structural Engineering",
       "Interior Design",
@@ -35,6 +38,7 @@ const cardData = [
     title: "UX and UI Design",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGXHu8GXxovS-TZNEkiBi6LfjGIUr0mqNeQ&s",
+      description: "UI (User Interface) design focuses on the look, layout, and interactive elements of a product. UX (User Experience) design centers on the overall feel, usability, and user satisfaction when interacting with the product.",
     backContent: [
       "User-Centered Design",
       "User Interface (UI) Design",
@@ -45,6 +49,7 @@ const cardData = [
     title: "Front end Development",
     image:
       "https://i8is.com/wp-content/uploads/2024/03/front-end-developer.png",
+      description:"Front-end development involves creating the part of a website or web application that users interact with directly. It focuses on building the user interface using technologies like HTML, CSS, and JavaScript to ensure a visually appealing and responsive experience.",
     backContent: [
       "HTML & CSS",
       "API Integration",
@@ -56,6 +61,7 @@ const cardData = [
     title: "Back end Development",
     image:
       "https://www.netguru.com/hs-fs/hubfs/DALL%C2%B7E%202023-10-30%2010.33.27%20-%20A%20photo%20of%20a%20modern%20workspace%20with%20a%20computer%20displaying%20a%20code%20editor%20focused%20on%20back-end%20development.%20Surrounding%20the%20computer%20are%20holographic%20proje.png?width=1000&height=571&name=DALL%C2%B7E%202023-10-30%2010.33.27%20-%20A%20photo%20of%20a%20modern%20workspace%20with%20a%20computer%20displaying%20a%20code%20editor%20focused%20on%20back-end%20development.%20Surrounding%20the%20computer%20are%20holographic%20proje.png",
+      description: "Back-end development is the server-side programming that manages the logic, databases, and server configurations of a web application. It ensures data is processed and delivered to the front end, typically using languages like Python, Java, or Node.js.",
     backContent: [
       "Session Management",
       "CRUD Operations",
@@ -68,18 +74,21 @@ const cardData = [
     title: "Testing and QA",
     image:
       "https://www.softwebsolutions.com/wp-content/uploads/2023/06/QA-Automation-Testing-Services.png",
+      description: "Testing and Quality Assurance (QA) involve evaluating software to ensure it meets specified requirements and functions correctly. Testing identifies bugs and issues, while QA focuses on improving processes to enhance product quality and reliability.",
     backContent: ["Software Testing", "Test Case", "Unit Testing"],
   },
   {
     title: "Web Hosting",
     image:
       "https://sm.pcmag.com/pcmag_uk/about/h/how-we-tes/how-we-test-web-hosting-services_q3pf.jpg",
+      description: "Web hosting is a service that allows individuals or organizations to store and make their websites accessible on the internet. It involves providing server space, connectivity, and other technologies required to serve web pages to users online.",
     backContent: ["Web Server", "Domain Name", "Bandwidth", "SSL Certificate"],
   },
   {
     title: "Cloud Server",
     image:
       "https://www.clook.net/wp-content/uploads/2020/11/cloud-server-illustration-1-768x609.png",
+      description: "A cloud server is a virtual server hosted in a cloud computing environment, providing on-demand resources and scalable computing power over the internet. It allows users to access and manage applications and data without relying on physical hardware.",
     backContent: [
       "Infrastructure as a Service (IaaS)",
       "Platform as a Service (PaaS)",
@@ -302,6 +311,7 @@ const styles = {
   },
   description: {
   textAlign: "justify",
+  fontSize: "15px",
   }
 };
 
