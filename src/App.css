@@ -1,10 +1,10 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-image: url('https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=996&t=st=1726032184~exp=1726032784~hmac=8758529d71ef5dbfbd7d966cc67c7aa8601fb75dbf9326e3401258b8fa5829e5');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-image: url('https://img.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg?w=996&t=st=1726032184~exp=1726032784~hmac=8758529d71ef5dbfbd7d966cc67c7aa8601fb75dbf9326e3401258b8fa5829e5');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; */
 }
