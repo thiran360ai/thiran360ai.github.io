@@ -10,6 +10,27 @@ const Folio = ({ cardRefs }) => {
       ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
+  const scrollRef = useRef(null);
+  // const scrollToPosition = (position) => {
+  //   if (scrollRef.current) {
+  //     scrollRef.current.scrollTo({
+  //       top: position, // Scroll to a specific vertical position (in pixels)
+  //       behavior: "smooth", // Smooth scrolling
+  //     });
+  //   }
+  // };
+
+  // const scrollToSection = (ref) => {
+  //   const sectionPosition =
+  //     ref.current.getBoundingClientRect().top + window.pageYOffset; // Get the section's Y position
+  //   const offset = 10; // Add an offset to force scroll even if it's close to the top
+
+  //   // Scroll the window to the section position with smooth scrolling behavior
+  //   window.scrollTo({
+  //     top: sectionPosition - offset, // Adding the offset to ensure it scrolls even if close
+  //     behavior: "smooth",
+  //   });
+  // };
 
   useEffect(() => {
     const handleResize = () => {
@@ -70,7 +91,7 @@ const Folio = ({ cardRefs }) => {
 
   return (
     <>
-      <main style={{ backgroundColor: "" }}>
+      <main ref={scrollRef} style={{ backgroundColor: "" }}>
         <ul id="cards" style={{ paddingTop: "50px" }}>
           {/* Card 1 */}
           <li
@@ -233,7 +254,7 @@ const Folio = ({ cardRefs }) => {
           </li>
 
           {/* Card 5 */}
-          <li className="card mt-5" id="card_5">
+          <li className="card mt-5" ref={cardRefs.card5} id="card_5">
             <div className="card__content">
               <h2>Thiran History</h2>
               <div className="card-body">
@@ -247,7 +268,12 @@ const Folio = ({ cardRefs }) => {
           </li>
 
           {/* Card 6 */}
-          <li className="card mb-5" id="card_6" style={{ marginTop: "70px" }}>
+          <li
+            className="card mb-5"
+            ref={cardRefs.card6}
+            id="card_6"
+            style={{ marginTop: "70px" }}
+          >
             <div className="card__content">
               <h2>Testimonials</h2>
               {/* <div className="testimonials-container"> */}
