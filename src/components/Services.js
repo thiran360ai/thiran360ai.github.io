@@ -7,7 +7,7 @@ const cardData = [
     image:
       "https://media.licdn.com/dms/image/v2/D4D12AQEwpyokFp1-KQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1687153407109?e=2147483647&v=beta&t=2Q-VYQMua5tRYrLKaFSrN6MHo-43pJRxdo3Q4M0Ou2g",
     description:
-      "A web application is a software accessible via a browser, enabling user interaction over the internet. It runs on a server and handles tasks like data storage and processing.",
+      "A web application is software accessible via a browser, enabling user interaction over the internet. It runs on a server, handling tasks like data storage and processing. Accessible from any device with internet connectivity, web applications often feature user authentication, real-time updates, and responsive design, making them scalable for businesses of all sizes.",
     backContent: [
       "Churn Analytics",
       "Prescriptive Analytics",
@@ -18,14 +18,14 @@ const cardData = [
   {
     title: "Android Application",
     image: "https://www.inforises.com/assets/app-development/android-app.png",
-    description:"An Android application is software created for devices using the Android OS. It offers various functions, from entertainment to productivity, and is available on platforms like Google Play.",
+    description:"An Android application is software created for devices using the Android OS. It offers various functions, from entertainment to productivity, and is available on platforms like Google Play. These apps are designed to provide a seamless experience across a wide range of Android devices, from smartphones to tablets.",
     backContent: ["User-Centered Design", "Iconography", "Responsive Design"],
   },
   {
     title: "IOS Application",
     image:
       "https://i0.wp.com/ahex.co/wp-content/uploads/2022/06/iphone-application-development.webp?fit=409%2C400&ssl=1",
-      description:"An iOS application is a mobile software program developed specifically for Apple's iOS operating system, which powers iPhones, iPads, and iPod Touch devices. These apps are distributed through the Apple App Store and are built using languages like Swift or Objective-C.",
+      description:"iOS applications are software designed for Apple's iOS operating system, used on devices like iPhones and iPads. Available on the App Store, they are optimized for performance, security, and seamless integration with Apple's hardware. These apps provide a consistent user experience across all Apple devices.",
     backContent: [
       "Structural Engineering",
       "Interior Design",
@@ -38,7 +38,7 @@ const cardData = [
     title: "UX and UI Design",
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGXHu8GXxovS-TZNEkiBi6LfjGIUr0mqNeQ&s",
-      description: "UI (User Interface) design focuses on the look, layout, and interactive elements of a product. UX (User Experience) design centers on the overall feel, usability, and user satisfaction when interacting with the product.",
+      description: "UI (User Interface) design focuses on the look, layout, and interactive elements of a product. UX (User Experience) design centers on the overall feel, usability, and user satisfaction when interacting with the product, ensuring a seamless and enjoyable experience.",
     backContent: [
       "User-Centered Design",
       "User Interface (UI) Design",
@@ -150,17 +150,17 @@ const Carousel = () => {
 
   return (
     <div style={styles.container}>
-      <div style={styles.carousel}>
+      {/* <div style={styles.carousel}> */}
         <div style={styles.carouselWrapper}>
           <div style={styles.carouselHeader}>
-            <div style={styles.carouselControls}>
+            {/* <div style={styles.carouselControls}> */}
               <button style={styles.carouselArrow} onClick={handlePrev}>
                 &lt;
               </button>
               <button style={styles.carouselArrow} onClick={handleNext}>
                 &gt;
               </button>
-            </div>
+            {/* </div> */}
           </div>
           <ul style={styles.carouselContent} ref={contentRef}>
             {cardData.map((card, index) => (
@@ -174,7 +174,7 @@ const Carousel = () => {
             ))}
           </ul>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 };
@@ -183,7 +183,9 @@ const styles = {
   container: {
     maxWidth: "1300px",
     marginTop: "-30px ",
-    padding: "20px",
+    // padding: "20px",
+    paddingBottom: '30px',
+    paddingTop: '30px',
   },
   carousel: {
     padding: "20px",
@@ -206,9 +208,10 @@ const styles = {
     gap: "14px",
   },
   carouselArrow: {
-    padding: "10px",
-    backgroundColor: "#333",
-    color: "#fff",
+    // padding: "10px",
+    paddingBottom: "6px",
+    backgroundColor: "#fff",
+    color: "#333",
     border: "none",
     borderRadius: "50%",
     cursor: "pointer",
@@ -217,6 +220,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    border: " solid black"
   },
   carouselContent: {
     display: "flex",

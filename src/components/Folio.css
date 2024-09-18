@@ -125,7 +125,7 @@
   /* Mobile styling */
   @media screen and (max-width: 768px) {
     #cards {
-      width: 100vw; /* Make the cards container take up the full width on mobile */
+      width: 90vw; /* Make the cards container take up the full width on mobile */
     }
   
     .card {
@@ -133,6 +133,9 @@
       width: 100%; /* Ensure cards take full width */
       margin: 0 auto 20px; /* Add bottom margin for spacing between cards */
       animation: none; /* Disable sticky behavior and animations on mobile */
+      height: auto;
+      margin-left: -10px;
+      margin-bottom: auto;
     }
   
     .card__content h2 {
@@ -147,10 +150,13 @@
     .card-body figure img {
       width: 100%; /* Ensure image scales properly */
       height: auto;
+      margin-top: -0.5em;
+      margin-bottom: 0.5em;
     }
   
     .text-content {
-      font-size: 1em; /* Adjust font size for text */
+      font-size: 0.9em; /* Adjust font size for text */
+      
     }
   }
   
