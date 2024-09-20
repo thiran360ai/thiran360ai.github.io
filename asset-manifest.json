@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thiran360ai.github.io/static/css/main.041b6b22.css",
+    "main.js": "/thiran360ai.github.io/static/js/main.205b0314.js",
+    "static/js/453.b6e952ae.chunk.js": "/thiran360ai.github.io/static/js/453.b6e952ae.chunk.js",
+    "static/media/banner1.png": "/thiran360ai.github.io/static/media/banner1.e79e2e62b07a85be957c.png",
+    "index.html": "/thiran360ai.github.io/index.html",
+    "main.041b6b22.css.map": "/thiran360ai.github.io/static/css/main.041b6b22.css.map",
+    "main.205b0314.js.map": "/thiran360ai.github.io/static/js/main.205b0314.js.map",
+    "453.b6e952ae.chunk.js.map": "/thiran360ai.github.io/static/js/453.b6e952ae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041b6b22.css",
+    "static/js/main.205b0314.js"
+  ]
+}

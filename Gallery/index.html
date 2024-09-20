@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGO Achievers</title>  
+    <link rel="shortcut icon" href="images/service/Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+    <!-- preloader -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Mail script -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "FHf16L1A7lY-n2rs0",
+          });
+      })();
+    </script>
+    <!-- End -->
+    <!-- Text script -->
+    <!-- <script type='text/javascript'>
+      var index = 0;
+      var text = '80,000 + Students trained | 15,000 + Students placed';
+      function type()
+      {
+      document.getElementById('screen').innerHTML += text.charAt(index);
+      index += 1;
+      var t = setTimeout('type()',70);
+      }
+    </script> -->
+      <!-- End -->
+      <!-- Whatsapp icon -->
+      <style>
+        #whatsapp
+        {
+            right: 10px;
+        }
+        #whatsapp .wtsapp
+        {
+            position: fixed;
+            transform: all .5s ease;
+            background-color: #25d366;
+            display: block;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.15);
+            border-radius: 50px;
+            border-right: none;
+            color: #fff;
+            font-weight: 700;
+            font-size: 30px;
+            bottom: 10px;
+            right: 18px;
+            border: 0;
+            z-index: 9999;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+        }
+        #whatsapp .wtsapp:before{
+            content:"";
+            position: absolute;
+            z-index: -1;
+            Left: 50%;
+            top: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            display: block;
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            border-radius: 50%;
+            -webkit-animation: pulse-border 1500ms ease-out infinite;
+            animation: pulse-border 1500ms ease-out infinite;
+        }
+        #whatsapp .wtsapp:focus{
+            border: none;
+            outline: none;
+        }
+        @keyframes pulse-border {
+            0%{transform: translateX(-50%) translateY(-50%) translatez(e) scale(1); opacity: 1;}
+            100%{transform: translateX(-50%) translateY(-50%) translateZ(e) scale (1.5); opacity: 0;}
+        }
+        .card1{
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card1:hover {
+            transform: scale(1.05);
+        }
+
+        .card1-header {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        .card1-body {
+            min-height: 200px; /* Adjust height as needed */
+        }
+        .textbox{
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      transition: border-color 0.3s ease; /* Smooth transition for border color */
+    }
+
+    /* Hover effect */
+    
+    .textbox:hover {
+      border-color: dodgerblue; /* Change border color on hover */
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    }
+
+    /*Button effect*/
+    body{
+      background-color: #ccc;
+    }
+    /* Basic styles for the slideshow container */
+
+  
+    </style>
+    </head>
+  <body id="home" onload='type()'>
+  <!-- Preloader code -->
+    <div class="loader">
+      <div></div>
+    </div>
+<div class="load">  
+  <!-- end -->
+  <!-- whatsapp icon -->
+    <div id="whatsapp">
+      <a href="https://wa.me/919840369759" target="_blank" id="toggle1" class="wtsapp">
+      <i class="fa-brands fa-whatsapp"></i>
+      </a>
+  </div>
+  <!-- end -->
+    <header>
+        <nav class="navbar">
+          <h2 class="logo"><a href="#"> <img src="images/service/Favicon.png" width="25px">&nbsp; PAGO ACHIEVERS</a></h2>
+          <input type="checkbox" id="menu-toggler">
+          <label for="menu-toggler" id="hamburger-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+              <path d="M0 0h24v24H0z" fill="none"/>
+              <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+          </label>
+          <ul class="all-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <!-- <li><a href="#home" class="icon"><i class="fa-brands fa-square-facebook"></i></a> <a href="#home" class="icon"><i class="fa-brands fa-linkedin"></i></a> <a href="#home" class="icon"><i class="fa-brands fa-square-instagram"></i></a></li> -->
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="homepage" id="home">
+        <div class="content">
+          <div class="text">
+            <h1>Better Education</h1>
+            <p>PAGO Achievers is your trusted partner in professional training and placements for over 4 years.</p>
+            <table>
+              <tr><td colspan="2">Achievement-focused initiatives tailored for campuses and students.</td></tr>
+              <tr><td colspan="2" id="screen"><span>80,000 + </span>Students trained & <span>15,000 + </span>Students placed</td></tr>
+            </table>
+          </div>
+          
+          <div class="btn-container">
+            <a href="#services" class="btn">SERVICES <i class="fa-solid fa-angle-down fa-flip"></i></a>
+          </div>
+        </div>
+      </section>
+    
+  <P id="services"></P>
+      <section class="services">
+        <h2>Our Services</h2>
+        <p>  
+          "Our mission: <b>Empower minds, transform lives. </b>Enriching participants with knowledge daily, ensuring each session is <b> empowering and transformative. </b>"</p>
+        <ul class="cards">
+          <li class="card1">
+            <img src="images/service/Aptitude.jpg" alt="img">
+            <h3 class="bold">APTITUDE</h3>
+            <p>Quantitative, Reasoning & Verbal</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/Softskills.jpg" alt="img">
+            <h3 class="bold">SOFT SKILLS</h3>
+            <p>Employability & Campus to Corporate</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/IELTS.jpeg" alt="img">
+            <h3 class="bold">ENGLISH PROFICIENCY</h3>
+            <p>Lingua(LSRW), Business English Communication (BEC), TOFEL & IELTS</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/Technical.jpg" alt="img">
+            <h3 class="bold">TECHNICAL TRAINING</h3>
+            <p>C, C++, Python, Java, Php, HTML, CSS, Java Script, Angular JS, PLSQL, Flutter & Kotlin, Data Structure.</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/Full-stack-development.jpg" alt="img">
+            <h3 class="bold">ADVANCED TECH</h3>
+            <p>Full Stack, Data Science, Artificial Intelligence (Machine Learning & Deep Learning)</p>
+          </li>
+          <li class="card1">
+            <img src="https://flearningstudio.com/wp-content/uploads/2022/04/soft-skill-training-101-414x364-1.jpg" alt="img">
+            <h3 class="bold">TAMILNADU POLICE DEPARTMENT</h3>
+            <p>Digital literacy program, Soft Skill Training</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/BFSI-Skill-Development-Reinvented-and-Enhanced-header.jpg" alt="img">
+            <h3 class="bold">BFSI</h3>
+            <p>Banking, Financial Services and Insurance (BFSI), Accounting, Tally prime.</p>
+          </li>
+          <li class="card1">
+            <img src="https://img.freepik.com/premium-vector/team-is-business-training_18660-3293.jpg" alt="img">
+            <h3 class="bold">CORPORATE TRAINING</h3>
+            <p>Special inter-corporate training, Client management, Business analytics,Transition methodology, 
+              Induction training program, 
+              Process & Product ,
+              Voice & Accent training program.</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/Empowerment.jpg" alt="img">
+            <h3 class="bold">General Training</h3>
+            <p>POSH (Prevention of Sexual Harrasment), Woman Empowerment Program, Customer Handling Skills, Hospital management, Hotel customer management skills. </p>
+          </li>
+          <li class="card1">
+            <img src="https://img.freepik.com/free-vector/colleagues-working-together-project_74855-6308.jpg" alt="img">
+            <h3 class="bold">Classroom Training</h3>
+            <p>We offfered long term and short term Personality development, Aptitude, Reasoning and Technical skills to make job readiness.</p>
+          </li>
+          <li class="card1">
+            <img src="https://www.euroschoolindia.com/wp-content/uploads/2023/08/formative-and-summative-assessments.jpg" alt="img">
+            <h3 class="bold">Assessment</h3>
+            <p>We are conducting pre-assessment, mid-assessment and final assessment to analyze the student level / to define the students(Walk-in interviews, Mock test based on assessments, we validate with our analysis model).</p>
+          </li>
+          <li class="card1">
+            <img src="images/service/mba.webp" alt="img">
+            <h3 class="bold">Business Management</h3>
+            <p>We are conducting Domain specific training, Importance of communication, Identifying their interpersonal & intra personal skills, Placement training, Why MBA?.            </p>
+          </li>
+        </ul>
+      </section>
+<P id="portfolio"></P>
+      <section>
+        
+         <!-- <b>Pago Achievers</b> is a professionally managed organization specializing in "Training and Placement" services for the past <b>four years</b> . Founded with the objective of providing comprehensive global training and placement solutions to aspiring individuals and the corporate sector, Pago Achievers offers a range of Campus to Corporate training program.</p> -->
+         
+         <section class="services">
+          <h2>Our Portfolio</h2>
+          <p>  
+            <b>Pago Achievers</b> is a professionally managed organization specializing in "Training and Placement" services for the past <b>four years</b> . Founded with the objective of providing comprehensive global training and placement solutions to aspiring individuals and the corporate sector, Pago Achievers offers a range of Campus to Corporate training program.</p>
+          <ul class="cards">
+            <li class="card1">
+              <img src="images/service/vision.jpg" alt="img">
+              <h3 class="bold">TRAINING VISION</h3>
+              <p style="text-align:left;">
+                <ol>
+                  Enhance Employability. <br>
+                  Empowering minds, Transforming. <br>
+                  Ensure enriched knowledge. <br>
+                  Empower and transform. 
+                </ol>
+            </li>
+            <li class="card1">
+              <img src="images/service/businessmen-talking-about-business-cartoon-vector-24374456.jpg" alt="img">
+              <h3 class="bold">OUR EXPERTISE</h3>
+              <p>Company Specific TCS, Cognizent, Capegemini, Infoys, Accenture, Tech Mahindra, HCL, Wipro, Syntel , Hexaware, DXC TECH, ZOHO with “COCUBES, AMCAT TRAINING”.</p>
+            </li>
+            <li class="card1">
+              <img src="images/service/Competitive-examinations-in-india-for-higher-education.png" alt="img">
+              <h3 class="bold">COMPETITIVE EXAMS</h3>
+              <p>BANK PO & CLERICAL, SSC, RRB, AAI, UPSC (CSAT PAPER)</p>
+            </li>
+            
+          </ul>
+        </section>
+         
+         
+         <!-- <div class="container">
+          <div class="card__container">
+             <article class="card__article">
+                <img src="images/service/vision.jpg" alt="image" class="card__img">
+                <div class="card__data">
+                   <span class="card__description">Enhance Employability, with Experience, Empowering minds, Transforming Lives, Ensure enriched knowledge in sessions, Empower and transform the each session</span>
+                   <h2 class="card__title"></h2>  
+                </div>
+             </article>
+             <article class="card__article">
+                <img src="images/service/businessmen-talking-about-business-cartoon-vector-24374456.jpg" alt="image" class="card__img">
+                <div class="card__data">
+                   <span class="card__description">Company Specific TCS, Cognizent, Capegemini, Infoys, Accenture, Tech Mahindra, HCL, Wipro, Syntel , Hexaware, DXC TECH, ZOHO with “COCUBES, AMCAT TRAINING”.</span>
+                   <h2 class="card__title"></h2>
+                </div>
+             </article>
+             <article class="card__article">
+                <img src="images/service/Competitive-examinations-in-india-for-higher-education.png" alt="image" class="card__img">
+                <div class="card__data">
+                   <span class="card__description">BANK PO & CLERICAL, SSC, RRB, AAI, UPSC (CSAT PAPER)</span>
+                   <h2 class="card__title"></h2>
+                   
+                </div>
+             </article>
+          </div>
+       </div> -->
+      </section>
+  <!-- About -->
+  <P id="about"></P>
+      <section class="about" id="about">
+        <h2 class="bold">About Us</h2>
+        <div class="row mission-vision">
+          <h3>Our Mission</h3>
+          <p class="para">Pago Achievers is to provide a safe corporate environment and empower every organization on the planet to achieve more through comprehensive global training and specialized inter-corporate programs.</p>
+          <h3>Our Vision</h3>
+          <p class="para">Pago Achievers is to develop well-rounded, confident, and responsible individuals who aspire to achieve their full potential, creating a better everyday life through comprehensive global training and placement solutions for the corporate sector.</p>
+        </div>
+        <br>
+        <br>
+        <div class="card">
+          <div>
+            <figure>
+             <img src="images/profile/11.jpg" alt="Avatar" width="240px">
+             <figcaption><h4><b style="color: #15747a;">Eben Paul</b></h4></figcaption>
+             <P style="color: rgb(155, 133, 102);"><b>Founder & CEO</b></P>
+             <br>
+            </figure>
+          </div>
+          <div class="about-ceo">
+            <p class="profile-p">Seasoned professional with 18 years of corporate experience as a Hiring Manager in global outsourcing MNCs, specializing in communication, process, and product training. Expert in creating interactive learning environments and conducting corporate and college training programs, particularly in the FMCG sector, focusing on upskilling and leadership development.</p>
+           
+           <br>
+           <br>
+            <div class="wrapper">
+              <div class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fa-brands fa-facebook-f"></i></i></span>
+              </div>
+              <div class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fa-brands fa-x-twitter"></i></span>
+              </div>
+              <div class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fa-brands fa-instagram"></i></span>
+              </div>
+              <div class="icon github">
+                  <div class="tooltip">LinkedIn</div>
+                  <span><i class="fa-brands fa-linkedin-in"></i></span>
+              </div>
+              
+            </div>
+          </div>
+        </div>      
+  </section>
+  <P id="contact"></P>
+      <section class="contact">
+        <h2 class="bold">Contact Us</h2>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+        <div class="row">
+          <div class="col information">
+            <div class="contact-details">
+              <p><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/KQ9UtVvzEEwfz1T26" target="_blank" class="location">&nbsp; <span style="font-weight:500;">Our Location</span> </a></p>
+              <p><i class="fas fa-envelope"></i>&nbsp;pagoachievers.com </p>
+              <p><i class="fas fa-phone"></i> +91 9840369759</p>
+              <p><i class="fas fa-clock"></i> Monday - Friday: 8:00 AM - 8:00 PM</p>
+              <p><i class="fas fa-clock"></i> Saturday: 9:00 AM - 5:00 PM</p>
+              <p><i class="fas fa-clock"></i> Sunday : <span class="closed">Closed</span> </p>
+            </div>          
+          </div>
+          <div class="col form">
+            <form method="dialog" name="contact-form" id="contactForm">  
+              <span id="nameFeedback"></span>
+              <input type="text" id="name" name="name" placeholder="Name*" class="textbox" required>
+              <span id="emailFeedback" style="color: red;"></span>
+              <input type="email" id="mail" name="email" placeholder="Email*" class="textbox" required>
+              <span id="messageFeedback" style="color: red;"></span>
+              <textarea id="message" name="message" placeholder="message*" class="textbox" required></textarea>
+              <!-- Toast start -->
+              <ul class="notifications"></ul>
+              <div class="buttons">
+                <button type="submit" id="success">Send Message</button>
+              </div>
+              <!-- Toast end -->
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div>
+          <span class="developer"><span style="color:#3edde9 ; font-weight: bolder;">PAGO ACHIEVERS</span> Copyright © 2024 </span>  
+        </div>
+      </footer>
+<!-- loader end -->
+</div>
+      <!-- preloader script -->
+      <script>
+        $(window).on('load',function(){
+            $(".loader").fadeOut(1000);
+            $(".load").fadeIn(1000);
+        });
+    </script>
+    <!-- end -->
+     <!-- mail validation -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const form = document.getElementById('contactForm');
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                swal("Thank you!", "Message successfully sent.", "success")
+                .then(() => {
+                  SendMail();
+                    form.reset();
+                });
+            });
+        });
+    </script>
+    <!-- end -->
+
+  <script src="script.js"></script>
+
+  <!-- # Site developed by: Nitheesh kumar C -->
+  </body>
+</html>
